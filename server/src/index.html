@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <body>
+        <h1>Hi</h1>
+    </body>
+</html>
+
+<script>
+    /**
+     *
+     */
+    setInterval(
+        () => fetch('/').then(data => data.text()).then(text => document.body.innerHTML = text),
+        0.2
+    )
+</script>

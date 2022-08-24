@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "scripts": {
+        "serve": "node src/index.js",
+        "dev": "nodemon -e js \"src/index.js\"",
+        "install-and-run": "npm install && npm run dev"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
